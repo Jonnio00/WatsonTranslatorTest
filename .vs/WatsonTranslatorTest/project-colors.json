@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "010ba61f-8bf4-4183-9e19-17d4c2d96c4e": {
+      "ProjectGuid": "010ba61f-8bf4-4183-9e19-17d4c2d96c4e",
+      "DisplayName": "WatsonTranslatorTest",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

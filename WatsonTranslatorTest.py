@@ -20,20 +20,33 @@ language_translator = LanguageTranslatorV3(
 language_translator.set_service_url(url)
 
 def englishToFrench(englishText):
+    """
+    This function takes english text and returns french translation
+    """
+    
     result = language_translator.translate(text= englishText, model_id="en-fr").get_result()
 
     frenchText = result["translations"][0]["translation"]
 
-    print(frenchText) 
+    print(frenchText)
+
+    return frenchText
+     
     
 
 englishToFrench("Hello my name is Terje")
 
 def frenchToEnglish(frenchText):
+    """
+    This function takes english text and returns french translation
+    """
+
     result = language_translator.translate(text= frenchText, model_id="fr-en").get_result()
     
     englishText = result["translations"][0]["translation"]
 
     print(englishText)
 
+    return englishText
+    
 frenchToEnglish("Bonjour mon ami")
